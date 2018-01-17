@@ -1,0 +1,23 @@
+version: '2'
+services:
+  frontend:
+    image: node
+    container_name: frontend
+    hostname: Front-End-React
+    ports:
+      - 7000:7000
+    volumes:
+      - /home/danilo/studies/projects/trelloApi/app:/home/front
+    restart: always
+    command: 'bash'
+
+  api:
+    image: node
+    container_name: api
+    hostname: Api_trello
+    ports:
+      - 3000:3000
+    volumes:
+      - /home/danilo/studies/projects/trelloApi/app:/home/front
+    restart: always
+    command: 'bash'

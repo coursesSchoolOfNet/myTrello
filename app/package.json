@@ -1,0 +1,17 @@
+{
+  "name": "trelloApi",
+  "version": "1.0.0",
+  "title": "Trello Api Personal ",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "npm install --global babel-cli"
+  },
+  "author": "DaniloAraujo",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-react": "^6.24.1"
+  }
+}
